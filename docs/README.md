@@ -1,6 +1,6 @@
-> # 印度飞饼
+> # 首页
 >
-> > [大佬的博客](https://blog.csdn.net/m0_37965018)
+> > [更多资源](https://git.51tagger.com/)
 >
 >
 > > [大佬的GitHub](https://github.com/Corefo/ "github")
