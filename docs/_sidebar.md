@@ -1,13 +1,12 @@
 - [**首页**](README.md)
-- 工厂
+- 好伙伴
   - [阿特斯](factory/阿特斯.md)
   - [开盛](factory/开盛.md)
   - [金堂](factory/金堂.md)
   - [印度](factory/印度.md)
-- Spring框架
+- 杂项
 
-  - [初识spring框架](spring/【10分钟学Spring】：（一）初识Spring框架.md)
-  - [依赖注入及示例](spring/【10分钟学Spring】：（二）一文搞懂spring依赖注入（DI）.md)
-  - [spring的条件化装配](spring/【10分钟学Spring】：（三）你了解spring的高级装配吗_条件化装配bean.md)
+  - [wiki使用调研](other/wiki使用调研.md)
+  - [瞎写的](other/瞎写的.md)
 - 数据库
 
