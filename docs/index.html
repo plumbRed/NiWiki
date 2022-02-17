@@ -22,7 +22,7 @@
 	   alias: {
       '/.*/_sidebar.md': '/_sidebar.md',
 	  },
-     // coverpage: true,  //开启封面
+      coverpage: true,  //开启封面
       loadSidebar: true,//开启侧边栏
       auto2top: true,   //切换页面自动回到顶部。
       subMaxLevel: 3,   //目录最大级数
@@ -100,6 +100,12 @@
         crossChapter: true,
         crossChapterText: true,
       },
+	  count:{
+		countable:true,
+		fontsize:'0.9em',
+		color:'rgb(90,90,90)',
+		language:'chinese'
+	  },
       'flexible-alerts': {
         style: 'flat'
       }
@@ -160,6 +166,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
   <!-- 分页导航设置 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!--字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 
   <style type="text/css">
     .content {
