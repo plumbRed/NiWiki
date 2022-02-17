@@ -1,12 +1,11 @@
-- [**首页**](README.md)
-- 好伙伴
-  - [阿特斯](factory/阿特斯.md)
-  - [开盛](factory/开盛.md)
-  - [金堂](factory/金堂.md)
-  - [印度](factory/印度.md)
-- 杂项
-
-  - [wiki使用调研](other/wiki使用调研.md)
-  - [瞎写的](other/瞎写的.md)
-- 数据库
+- 首页
+  - 合作伙伴
+    - [阿特斯](factory/阿特斯.md)
+    - [开盛](factory/开盛.md)
+    - [金堂](factory/金堂.md)
+    - [印度](factory/印度.md)
+  - 杂项
+    - [wiki使用调研](other/wiki使用调研.md)
+    - [瞎写的](other/瞎写的.md)
+  - 数据库
 
