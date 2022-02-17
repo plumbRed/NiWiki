@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <link 
+rel="stylesheet"
+href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+title="docsify-darklight-theme"
+type="text/css"
+/>
+</head>
+<body>
+  <div id="app">loading...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'Nathan的Wiki',  //左侧栏边名字，默认为空
+      repo: 'docsifyjs/docsify',
+	  el: '#app',        //加载对应id的模块
+	  loadSidebar:true, //侧边自定义开启 配合_sidebar.md使用
+	  subMaxLevel: 1,
+	 // maxLevel: 1,
+	 // coverpage:true,  //封面
+	 // auto2top: true, //切换页面后是否自动跳转到页面顶部
+	  nameLink:'/',     //点击文档标题后跳转的链接地址,点击后跳转到 Wiki 首页。
+	  routerMode: 'history', //设置路由模式。设置为 history 之后，浏览器链接里不会出现 #
+	  loadNavbar: '_navbar.md', //导航栏
+	  //topMargin: 40,          //让你的内容页在滚动到指定的锚点时，距离页面顶部有一定空间。
+	 // homepage: 'home.md',
+	  search: {
+		 maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        //如果中文和英文文档都没有内容，则返回
+        noData: {'/':'😒 找不到结果'},
+        depth: 6,        //搜索标题的最大层级
+		},
+	//	relativePath: true,
+		pagination: {
+			previousText: '上一章节',
+			nextText: '下一章节',
+		},
+		copyCode: {
+			buttonText: '点击复制',
+			errorText: '错误',
+			successText: '复制成功'
+		},
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'Github Application Client ID',
+      clientSecret: 'Github Application Client Secret',
+      repo: 'Github repo',
+      owner: 'Github repo owner',
+      admin: ['Github repo collaborators, only these guys can initialize github issues'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false,
+      id: decodeURI(window.location.pathname),
+    })
+  </script>
+  <script 
+    src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+    type="text/javascript">
+</script>
+</body>
+</html>
