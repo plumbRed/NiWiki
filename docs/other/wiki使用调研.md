@@ -14,6 +14,6 @@
 > | 9        | xwiki(java)                 | https://www.xwiki.org/                    | **java**开发，有部署文档,开源                                | 看评论说编辑文档功能并不好用                           | 考虑     |
 > | **9.1**  | jamwiki(已尝试)             | http://www.jamwiki.org/                   | **仿真mediawiki**的**java**版，拥有mediawiki的大部分功能，有现成的war包，**部署很方便** | 可能是不太好用吧(玩wiki的新手)                         | 已尝试   |
 > | **10**   | MinDoc（要不是因为go）      | https://www.iminho.me/                    | **多人**账号管理，支持markdown，开源有码，传统页面开发,**操作体验真的很不错** | **go语言**开发                                         | 考虑     |
-> | **11**   | DokuWiki                    | https://www.dokuwiki.org/dokuwiki         | 内容多，社区活跃，部署安装不难                               | **php**开发                                            | 考虑     |
->| **12**   | mediawiki                   | https://wikimedia.ch/                     | 很有名。很多人改过，所以bug较少                              | **php**开发，部署很麻烦                                | 考虑     |
+> | **11**   | DokuWiki                    | https://www.dokuwiki.org/dokuwiki         | 内容多，社区活跃，部署安装不难，**不需要数据库**，对比mediawiki显得更**易用** | **php**开发                                            | 考虑     |
+>| **12**   | mediawiki                   | https://wikimedia.ch/                     | 功能强大，很有名。很多人改过，所以bug较少                    | **php**开发，配置和运维很麻烦                          | 考虑     |
 
