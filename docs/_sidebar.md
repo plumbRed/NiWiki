@@ -1,6 +1,6 @@
 - 首页
   - 合作伙伴
-    - [阿特斯](factory/阿特斯.md)
+    - [阿特斯](factory/嘉兴阿特斯设施MES规划.md)
     - [开盛](factory/开盛.md)
     - [金堂](factory/金堂.md)
     - [印度](factory/印度.md)
