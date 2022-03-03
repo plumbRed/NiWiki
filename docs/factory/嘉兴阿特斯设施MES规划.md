@@ -10,15 +10,12 @@
 
 ### 1.2 网络布局配置(Layout)
 
-> A.将设施上位机和设施MES服务器并入一个网络(通过映射的方式)
->
-> B.由IT判定方法，二选一：
->
-> ​			将设施MES服务器连入办公网络，并打通与车间生产MES网络的通路(10.213.70.X)
->
-> ​			或者将设施MES服务器连入车间生产MES网络，并打通与办公网络的通路（推荐）
+> 1. 两台工控机
+> 2. 八口交换机
+> 3. 汇总统计下设施子网的IP。如果IP不冲突不需要另加路由器。冲突需要在每个子网加路由器映射IP。
+> 4. 拉网线相关工具材料若干。
 
-![layout.drawio](.\image\layout.drawio.png)
+![layout.drawio](..\pic\layout.drawio.png)
 
 
 
@@ -26,7 +23,7 @@
 
 ### 2.1 需求概述(Summarize)
 
-![required.png](.\image\required.png)
+![required.png](..\pic\required.png)
 
 ### 2.2 需求拆解(Analysis)
 
@@ -106,17 +103,17 @@
 
 0层：```两种数据中心、四个功能点、三个主要系统```
 
-![顶层DFD](.\image\DFD.drawio.png)
+![顶层DFD](..\pic\DFD.drawio.png)
 
 
 
 1层：
 
-![DFD1.drawio](.\image\DFD1.drawio.png)
+![DFD1.drawio](..\pic\DFD1.drawio.png)
 
 
 
-![DFD2.drawio](.\image\DFD2.drawio.png)
+![DFD2.drawio](..\pic\DFD2.drawio.png)
 
 
 
